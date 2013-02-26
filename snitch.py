@@ -202,7 +202,7 @@ class Stock:
 		p.show()
 	
 def writeCSV(x, y):
-	f = open('/Users/jack/Documents/Dill/stocks/stock_hist.csv', 'w')
+	f = open('stock_hist.csv', 'w')
 	sum_y = sum(y)
 	y = [i/sum_y for i in y]
 	print y
